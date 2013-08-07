@@ -9,7 +9,7 @@ This script scrapes a web page and sends the scraped content.
 
 ## How to download
 
-1. Download zip file from https://github.com/hshimo/scrape_mail.git
+1. Download ZIP file from https://github.com/hshimo/scrape_mail
 2. git clone https://github.com/hshimo/scrape_mail.git
 
 
@@ -69,17 +69,16 @@ only tested on
 
 ## Change Log
 
-- 2013-08-07
--- alpha version released
+- 2013-08-07: alpha version released
 
 
 ## TODO
 
-- get options from command line
--- move get options function into Lib/
--- implement verbose option
--- implement help option
-- view & template
-- HTML mail
-- beforeFilter, afterFilter
-- only japanese locale for sendMail library
+- [] get options from command line
+- [] move get options function into Lib/
+- [] implement verbose option
+- [] implement help option
+- [] view & template
+- [] HTML mail
+- [] beforeFilter, afterFilter
+- [] only japanese locale for sendMail library
