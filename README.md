@@ -1,23 +1,46 @@
 # Scrape Mail: scrape_mail.php
 
-## What's this?
+# What's this?
 
 This script scrapes a web page and sends the scraped content.
 
 1. scrape a web page
 2. send a e-mail with the scraped result
 
-## How to download
+# How to download
 
 1. Download ZIP file from https://github.com/hshimo/scrape_mail
 2. git clone https://github.com/hshimo/scrape_mail.git
 
 
-## How to install
+# How to install
 
 1. Download a packed file.
 2. Unpack the file.
-3. That's all. Just execute with php.
+3. That's all.
+
+## How to configure
+
+1. copy default mail setting file
+
+```
+% cd Config
+% cp mail.default.php mail.my.php
+```
+
+2. edit mail setting file. (From, To, Subject, etc)
+3. set send mail flag to true.
+
+```
+% cd Config
+% vi init.php
+```
+
+change a following line:
+
+```
+   define('SM_SEND_MAIL_FLAG', false);
+```
 
 
 ## How to use
