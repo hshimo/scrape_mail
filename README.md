@@ -28,7 +28,7 @@ This script scrapes a web page and sends the scraped content.
 % cp mail.default.php mail.my.php
 ```
 
-2. edit mail setting file. (From, To, Subject, etc)
+2. edit a mail setting file. (ex. From, To, Subject, etc)
 3. set send mail flag to true.
 
 ```
@@ -90,6 +90,13 @@ only tested on
 - PHP 5.3.15
 - Mac OS X 10.6
 
+
+## Contribution
+
+Welcome!
+- fork on GitHub
+- send a pull request
+
 ## Change Log
 
 - 2013-08-07: alpha version released
@@ -97,6 +104,7 @@ only tested on
 
 ## TODO
 
+- [] put the version
 - [] get options from command line
 - [] move get options function into Lib/
 - [] implement verbose option
@@ -105,3 +113,5 @@ only tested on
 - [] HTML mail
 - [] beforeFilter, afterFilter
 - [] only japanese locale for sendMail library
+- [] write test case
+- [] output to other resources (database, twitter, facebook)
